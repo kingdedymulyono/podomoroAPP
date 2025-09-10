@@ -1,0 +1,129 @@
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    overflow-x: hidden;
+}
+
+.box {
+    padding: 1rem;
+}
+
+.timeBox {
+    width: 100dvw;
+    height: 100dvh;
+    /* background-color: #afafaf; */
+}
+
+#timeInput{
+    /* width: 25dvw !important; */
+    width: max-content;
+}
+
+.circle {
+    padding: 2rem;
+    max-width: 50dvw;
+    max-height: 50dvw;
+    width: fit-content;
+    height: auto;
+    aspect-ratio: 1/1;
+    /* max-width: 90dvw;
+    max-height: 90dvw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    flex-direction: column;
+}
+
+.timeBox #time {
+    font-size: 8rem;
+}
+
+.play {
+    background-color: #fff;
+    /* border: 2px solid #0d6efd ; */
+    padding: .5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #0d6efd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+
+.repeat {
+    /* background-color: #a0a0a0; */
+    padding: .5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #f0f0fafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+.modeBtn{
+    border: none;
+}
+.work{
+    z-index: 2;
+    width: fit-content;
+}
+.rest{
+    margin: 0 -1rem;
+}
+.work , .rest{
+    cursor: pointer;
+    transition: all .4s;
+}
+.modeBox{
+    position: relative;
+    width: 64%;
+    height: 100%;
+    bottom: -100%;
+    /* right: -50%; */
+    z-index: -9;
+    transition: all .5s;
+}
+/* .work:hover ,` */
+.play:hover {
+    color: white;
+    transition: all .5s;
+    background-color: #0d6efd;
+    
+}
+
+.repeat:hover {
+    transform: rotate(90deg);
+    transition: all .5s;
+}
+
+@media (max-width:640px) {
+    #time {
+        font-size: 4rem !important;
+    }
+    
+    .circle {
+        padding: 2rem;
+        min-width: 50dvw;
+        min-height: 50dvw;
+        width: fit-content;
+        height: auto;
+        aspect-ratio: 1/1;
+        max-width: 90dvw;
+        max-height: 90dvw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: white;
+        flex-direction: column;
+    }
+    /* #timeInput{
+        width: 50dvw !important;
+    } */
+}

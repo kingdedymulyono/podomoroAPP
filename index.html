@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <h1>Podomoro App</h1>
+
+    <div class="timeBox d-flex flex-column justify-content-center align-items-center">
+        <div class="circle shadow-lg">
+            <div id="time">
+                00:00
+            </div>
+        </div>
+        <div class="d-flex gap-2 m-4">
+            <i class="bi bi-play-fill shadow play" onclick="start()"></i>
+            <i class="bi bi-arrow-repeat shadow repeat bg-secondary bg-opacity-50" onclick="repeat()"></i>
+        </div>
+        <div class="btnContainer">
+            <div class="modeBox bg-primary rounded-pill"></div>
+            <div id="timeInput" class=" d-flex justify-content-center align-items-center shadow rounded-pill">
+                <button type="button" class="btn modeBtn work text-white p-2 px-4 rounded-pill">Focus</button>
+                <button type="button" class="btn modeBtn rest text-black p-2 px-4 rounded-pill">Rest</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</html>
