@@ -3,60 +3,166 @@ const timeInput = document.getElementById("timeInput")
 
 const buttons = document.querySelectorAll(".modeBtn")
 const modeBox = document.querySelector(".modeBox")
+const playButton = document.querySelector(".play")
+
 let startMinute
 let time
+let timer
 let isPlay = true
+let isWork = true
 
-const start = () => {
+playButton.addEventListener("click", () => {
+    if (isWork) {
+        startWork()
+    } else {
+        startRest()
+    }
+})
+
+const workClear = () => {
+    Swal.fire({
+        title: "Time up",
+        text: "Your work time has completed",
+        icon: "success"
+    });
+}
+const restClear = () => {
+    Swal.fire({
+        title: "Time up",
+        text: "Your rest time has completed",
+        icon: "warning"
+    });
+}
+
+const startWork = () => {
     if (timeInput.value >= 60) {
         alert("Tidak boleh lebih dari 60 menit")
     } else {
-        document.querySelector('.play').classList.remove("bi-play-fill")
-        document.querySelector('.play').classList.add("bi-pause-fill")
-        startMinute = 25
-        time = startMinute * 60
-        timeDiv.innerHTML = `Wait...`
-        setInterval(() => {
-            if (isPlay) {
-                let minute = Number(Math.floor(time / 60))
-                let seconds = Number(time % 60)
-                console.log(minute.toString().length)
-                if (minute.toString().length < 2) {
-                    minute = '0' + minute
+        if (!isPlay) { // Jika timer dalam keadaan berhenti, maka kita akan memulainya
+            // Ubah tampilan tombol menjadi pause
+            startMinute = 25
+            // startMinute = 1/6
+            time = startMinute * 60
+            playButton.classList.remove("bi-play-fill");
+            playButton.classList.add("bi-pause-fill");
+            timeDiv.innerHTML = '<i class="bi bi-stopwatch"></i>'
+            // Mulai interval dan simpan ID-nya ke variabel global
+            timer = setInterval(() => {
+                let minute = Math.floor(time / 60);
+                let seconds = time % 60;
+
+                // Tambahkan "0" di depan jika angka kurang dari 10
+                minute = minute.toString().padStart(2, '0');
+                seconds = seconds.toString().padStart(2, '0');
+
+                timeDiv.innerHTML = `${minute} : ${seconds}`;
+                time--;
+
+                // Opsional: Hentikan timer saat hitungan selesai (jika waktu mencapai 0)
+                if (time < 0) {
+                    clearInterval(timer);
+                    isPlay = false;
+                    // Atur ulang tombol dan tampilan
+                    playButton.classList.remove("bi-pause-fill");
+                    playButton.classList.add("bi-play-fill");
+                    timeDiv.innerHTML = "00 : 00";
+                    workClear()
+                    isWork = false
                 }
-                if (seconds.toString().length < 2) {
-                    seconds = '0' + seconds
-                }
-                timeDiv.innerHTML = `${minute} : ${seconds}`
-                time--
-            }
-        }, 1000);
+            }, 1000);
+
+            isPlay = true; // Set status menjadi "berjalan"
+
+        } else { // Jika timer sedang berjalan, maka kita akan menghentikannya
+            // Ubah tampilan tombol menjadi play
+            playButton.classList.remove("bi-pause-fill");
+            playButton.classList.add("bi-play-fill");
+
+
+            // Hentikan interval
+            clearInterval(timer);
+
+            isPlay = false; // Set status menjadi "berhenti"
+        }
     }
 }
+const startRest = () => {
+    {
+        if (!isPlay) { // Jika timer dalam keadaan berhenti, maka kita akan memulainya
+            // Ubah tampilan tombol menjadi pause
+            startMinute = 1/6
+            time = startMinute * 60
+            playButton.classList.remove("bi-play-fill");
+            playButton.classList.add("bi-pause-fill");
+            timeDiv.innerHTML = '<i class="bi bi-stopwatch"></i>'
+            // Mulai interval dan simpan ID-nya ke variabel global
+            timer = setInterval(() => {
+                let minute = Math.floor(time / 60);
+                let seconds = time % 60;
+
+                // Tambahkan "0" di depan jika angka kurang dari 10
+                minute = minute.toString().padStart(2, '0');
+                seconds = seconds.toString().padStart(2, '0');
+
+                timeDiv.innerHTML = `${minute} : ${seconds}`;
+                time--;
+                
+                // Opsional: Hentikan timer saat hitungan selesai (jika waktu mencapai 0)
+                if (time < 0) {
+                    clearInterval(timer);
+                    isPlay = false;
+                    // Atur ulang tombol dan tampilan
+                    playButton.classList.remove("bi-pause-fill");
+                    playButton.classList.add("bi-play-fill");
+                    timeDiv.innerHTML = "00 : 00";
+                    isWork = true
+                    restClear()
+                }
+            }, 1000);
+
+            isPlay = true; // Set status menjadi "berjalan"
+
+        } else { // Jika timer sedang berjalan, maka kita akan menghentikannya
+            // Ubah tampilan tombol menjadi play
+            playButton.classList.remove("bi-pause-fill");
+            playButton.classList.add("bi-play-fill");
+            clearInterval(timer);
+            isPlay = false; // Set status menjadi "berhenti"
+        }
+    }
+}
+
 const repeat = () => {
     isPlay = false
-    setTimeout(() => {
-        timeDiv.innerHTML = `Reset now`
-    }, 1000);
-    timeDiv.innerHTML = `00:00`
+    if (isWork) {
+        startWork()
+    } else {
+        startRest()
+    }
 }
 
 buttons.forEach((btn) => {
     btn.addEventListener('click', (e) => {
-        buttons.forEach((b)=>{b.classList.remove("btn-primary")})
+        buttons.forEach((b) => { b.classList.remove("btn-primary") })
+        playButton.classList.remove("bi-pause-fill");
+        playButton.classList.add("bi-play-fill");
         console.info(e.target.className)
         if (e.target.className.includes("rest")) {
             document.querySelector(".work").classList.remove("text-white")
             document.querySelector(".work").classList.add("text-black")
             e.target.classList.add("text-white")
-            modeBox.style.right='-50%'
-            repeat()
-        } else if (e.target.className.includes("work")){
+            modeBox.style.right = '-50%'
+            clearInterval(timer);
+            timeDiv.innerHTML = '00:00'
+            isWork = false
+        } else if (e.target.className.includes("work")) {
             document.querySelector(".rest").classList.remove("text-white")
             document.querySelector(".rest").classList.add("text-black")
-            modeBox.style.right='0'
+            modeBox.style.right = '0'
             e.target.classList.add("text-white")
-            repeat()
+            clearInterval(timer);
+            timeDiv.innerHTML = '00:00'
+            isWork = true
         }
     })
 })
