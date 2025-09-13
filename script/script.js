@@ -4,10 +4,12 @@ const timeInput = document.getElementById("timeInput")
 const buttons = document.querySelectorAll(".modeBtn")
 const modeBox = document.querySelector(".modeBox")
 const playButton = document.querySelector(".play")
-
+const darkBtn = document.querySelector(".darkBtn")
+const darkElement = document.querySelectorAll(".darkElement")
 let startMinute
 let time
 let timer
+let isDark = false
 let isPlay = true
 let isWork = true
 
@@ -180,6 +182,8 @@ buttons.forEach((btn) => {
             console.info(e.target.className)
             document.querySelector(".work").classList.remove("text-white")
             document.querySelector(".work").classList.add("text-black")
+            document.querySelector(".work").classList.remove("darkText")
+            document.querySelector(".work").classList.add("darkText")
             e.target.classList.add("text-white")
             modeBox.style.right = '-50%'
             clearInterval(timer)
@@ -188,6 +192,8 @@ buttons.forEach((btn) => {
         } else if (e.target.className.includes("work")) {
             document.querySelector(".rest").classList.remove("text-white")
             document.querySelector(".rest").classList.add("text-black")
+            document.querySelector(".rest").classList.remove("darkText")
+            document.querySelector(".rest").classList.add("darkText")
             modeBox.style.right = '0'
             e.target.classList.add("text-white")
             clearInterval(timer);
@@ -197,4 +203,48 @@ buttons.forEach((btn) => {
     })
 })
 
+darkBtn.addEventListener("click", () => {
+    if (!isDark) {
+        // document.body.classList.add("bg-dark", "text-white")
+        darkBtn.style.left='50%'
+        // darkBtn.querySelector("i").style.left='100%'
+        darkBtn.querySelector("i").classList.add("bi-moon-stars")
+        darkBtn.querySelector("i").classList.remove("bi-sun")
+        document.querySelectorAll(".darkText").forEach((e)=>{
+            e.classList.remove("text-black")
+            e.classList.add("text-white")
+        })
+        darkElement.forEach((e)=>{
+            e.classList.add("bg-dark")
+        })
+        timeDiv.classList.add("text-black")
+        isDark = true
+    }else{
+        darkBtn.style.left='0'
+        darkBtn.querySelector("i").style.left='0'
+        // document.body.classList.remove("bg-dark", "text-white")
+        darkBtn.querySelector("i").classList.add("bi-sun")
+        darkBtn.querySelector("i").classList.remove("bi-moon-stars")
+        document.querySelectorAll(".darkText").forEach((e)=>{
+            e.classList.add("text-black")
+            e.classList.remove("text-white")
+        })
+        darkElement.forEach((e)=>{
+            e.classList.remove("bg-dark")
+        })
+        timeDiv.classList.add("text-black")
+        isDark = false
+    }
+})
+
+
+
+
+const getData =async () => {
+    fetch("./dummy.json")
+    .then(response=>response.json())
+    .then(data=>console.table(data))
+}
+
+getData()
 

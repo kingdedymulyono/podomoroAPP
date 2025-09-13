@@ -1,0 +1,601 @@
+[
+    {
+      "id": 1,
+      "nama": "SMK Negeri 1 Jakarta",
+      "alamat": "Jl. Budi Utomo No.7, Pasar Baru, Sawah Besar",
+      "kota": "Jakarta Pusat",
+      "kode_pos": "10710",
+      "telepon": "021-3813630",
+      "email": "info@smkn1jakarta.net",
+      "website": "http://smkn1jakarta.net/",
+      "npsn": "20100143",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Teknik Perancangan dan Gambar Mesin",
+        "Desain Permodelan dan Informasi Bangunan",
+        "Teknik Instalasi Pemanfaatan Tenaga Listrik",
+        "Teknik Tenaga Listrik (4 tahun)",
+        "Teknik Pemesinan",
+        "Teknik Kendaraan Ringan Otomotif",
+        "Sistem Informasi Jaringan dan Aplikasi (4 tahun)",
+        "Teknik Komputer dan Jaringan"
+      ],
+      "kepala_sekolah": "Drs. H. M. Soleh, M.Pd"
+    },
+    {
+      "id": 2,
+      "nama": "SMK Negeri 2 Jakarta",
+      "alamat": "Jl. Batu III RT. 001/007, Gambir",
+      "kota": "Jakarta Pusat",
+      "kode_pos": "10110",
+      "telepon": "021-3846219",
+      "email": "info@smkn2jkt.sch.id",
+      "website": "http://www.smkn2jkt.sch.id",
+      "npsn": "20100161",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Rekayasa Perangkat Lunak",
+        "Multimedia",
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran"
+      ],
+      "kepala_sekolah": "Dra. Hj. Nurlaila, M.Pd"
+    },
+    {
+      "id": 3,
+      "nama": "SMK Negeri 3 Jakarta",
+      "alamat": "Jl. Garuda No. 63, Kemayoran",
+      "kota": "Jakarta Pusat",
+      "kode_pos": "10620",
+      "telepon": "021-4209629",
+      "email": "info@smkn3jakarta.sch.id",
+      "website": "http://smkn3jakarta.sch.id/",
+      "npsn": "20100164",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran"
+      ],
+      "kepala_sekolah": "Drs. H. Ahmad Hidayat, M.Pd"
+    },
+    {
+      "id": 4,
+      "nama": "SMK Negeri 4 Jakarta",
+      "alamat": "Jl. Rorotan VI No.1, Cilincing",
+      "kota": "Jakarta Utara",
+      "kode_pos": "14140",
+      "telepon": "021-44850035",
+      "email": "info@smkn4jkt.sch.id",
+      "website": "http://www.smkn4jkt.sch.id/",
+      "npsn": "20100142",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Desain Permodelan dan Informasi Bangunan",
+        "Teknik Instalasi Tenaga Listrik",
+        "Teknik Pemesinan",
+        "Teknik Pengelasan",
+        "Teknik Kendaraan Ringan Otomotif",
+        "Teknik Audio Video",
+        "Teknik Elektronika Industri",
+        "Teknik Komputer dan Jaringan"
+      ],
+      "kepala_sekolah": "Ir. H. Sugeng Priyanto, M.Pd"
+    },
+    {
+      "id": 5,
+      "nama": "SMK Negeri 5 Jakarta",
+      "alamat": "Jl. Pisangan Baru Timur VII, Matraman",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13110",
+      "telepon": "021-8507824",
+      "email": "info@smkn5jkt.com",
+      "website": "http://smkn5jkt.com/",
+      "npsn": "20100141",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Teknik Instalasi Tenaga Listrik",
+        "Teknik Pemesinan",
+        "Teknik Kendaraan Ringan",
+        "Teknik Audio Video"
+      ],
+      "kepala_sekolah": "Drs. H. Bambang Sudibyo, M.Pd"
+    },
+    {
+      "id": 6,
+      "nama": "SMK Negeri 6 Jakarta",
+      "alamat": "Jl. Prof. Jokosutono SH No.2A, Kebayoran Baru",
+      "kota": "Jakarta Selatan",
+      "kode_pos": "12160",
+      "telepon": "021-7208718",
+      "email": "info@smkn6dki.or.id",
+      "website": "http://smkn6dki.or.id/",
+      "npsn": "20100140",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Multimedia",
+        "Animasi",
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran"
+      ],
+      "kepala_sekolah": "Dra. Hj. Sri Mulyani, M.Pd"
+    },
+    {
+      "id": 7,
+      "nama": "SMK Negeri 7 Jakarta",
+      "alamat": "Jl. Tenggiri No.1, Rawamangun",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13220",
+      "telepon": "021-4711564",
+      "email": "smkn7j@yahoo.com",
+      "website": "http://www.smkn7jkt.sch.id/",
+      "npsn": "20100139",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Persiapan Grafika",
+        "Produksi Grafika",
+        "Teknik Komputer dan Jaringan",
+        "Multimedia"
+      ],
+      "kepala_sekolah": "Drs. H. Supriyadi, M.Pd"
+    },
+    {
+      "id": 8,
+      "nama": "SMK Negeri 8 Jakarta",
+      "alamat": "Jl. Raya Pejaten, Pasar Minggu",
+      "kota": "Jakarta Selatan",
+      "kode_pos": "12510",
+      "telepon": "021-7996493",
+      "email": "info@smkn8jakarta.com",
+      "website": "http://smkn8jakarta.com/",
+      "npsn": "20100138",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran"
+      ],
+      "kepala_sekolah": "Dra. Hj. Endang Sulistyowati, M.Pd"
+    },
+    {
+      "id": 9,
+      "nama": "SMK Negeri 9 Jakarta",
+      "alamat": "Jl. Gedong Panjang II No.17, Tambora",
+      "kota": "Jakarta Barat",
+      "kode_pos": "11270",
+      "telepon": "021-6925936",
+      "email": "info@smkn9jakarta.sch.id",
+      "website": "http://www.smkn9jakarta.sch.id/",
+      "npsn": "20100137",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran"
+      ],
+      "kepala_sekolah": "Drs. H. Abdul Rahman, M.Pd"
+    },
+    {
+      "id": 10,
+      "nama": "SMK Negeri 10 Jakarta",
+      "alamat": "Jl. SMEA 6 Letjen Sutoyo, Cawang, Kramat Jati",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13630",
+      "telepon": "021-8091773",
+      "email": "info@smkn10jkt.sch.id",
+      "website": "http://www.smkn10jkt.sch.id/",
+      "npsn": "20100144",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran",
+        "Rekayasa Perangkat Lunak"
+      ],
+      "kepala_sekolah": "Drs. H. Sutrisno, M.Pd"
+    },
+    {
+      "id": 11,
+      "nama": "SMK Negeri 22 Jakarta",
+      "alamat": "Jl. Raya Condet, Pasar Rebo",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13760",
+      "telepon": "021-8400901",
+      "email": "info@smkn22-jkt.sch.id",
+      "website": "http://www.smkn22-jkt.sch.id/",
+      "npsn": "20100146",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran",
+        "Teknik Komputer dan Jaringan"
+      ],
+      "kepala_sekolah": "Dra. Hj. Siti Nurjanah, M.Pd"
+    },
+    {
+      "id": 12,
+      "nama": "SMK Negeri 24 Jakarta",
+      "alamat": "Jl. Pendidikan, Bambu Wulung",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13890",
+      "telepon": "021-8441976",
+      "email": "info@smkn24jkt.sch.id",
+      "website": "http://www.smkn24jkt.sch.id/",
+      "npsn": "20100147",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Rekayasa Perangkat Lunak",
+        "Usaha Perjalanan Wisata",
+        "Perhotelan",
+        "Jasa Boga",
+        "Tata Busana"
+      ],
+      "kepala_sekolah": "Drs. H. Ahmad Fauzi, M.Pd"
+    },
+    {
+      "id": 13,
+      "nama": "SMK Negeri 26 Jakarta",
+      "alamat": "Jl. Balai Pustaka Baru I, Rawamangun",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13220",
+      "telepon": "021-4720310",
+      "email": "info@smkn26jakarta.sch.id",
+      "website": "http://www.smkn26jakarta.sch.id/",
+      "npsn": "20100148",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Konstruksi Gedung, Sanitasi dan Perawatan (4 tahun)",
+        "Teknik Tenaga Listrik (4 tahun)",
+        "Teknik Fabrikasi Logam dan Manufaktur (4 tahun)",
+        "Teknik dan Manajemen Perawatan Otomotif (4 tahun)",
+        "Sistem Informatika, Jaringan dan Aplikasi (4 tahun)",
+        "Teknik Elektronika Daya dan Komunikasi (4 tahun)"
+      ],
+      "kepala_sekolah": "Ir. H. Wahyudi, M.Pd"
+    },
+    {
+      "id": 14,
+      "nama": "SMK Negeri 27 Jakarta",
+      "alamat": "Jl. Dr. Sutomo No.1, Pasar Baru",
+      "kota": "Jakarta Pusat",
+      "kode_pos": "10710",
+      "telepon": "021-3845739",
+      "email": "info@smkn27jkt.sch.id",
+      "website": "http://smkn27jkt.sch.id/",
+      "npsn": "20100163",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Usaha Perjalanan Wisata",
+        "Perhotelan",
+        "Jasa Boga",
+        "Tata Kecantikan Kulit dan Rambut",
+        "Tata Busana"
+      ],
+      "kepala_sekolah": "Dra. Hj. Ratna Dewi, M.Pd"
+    },
+    {
+      "id": 15,
+      "nama": "SMK Negeri 33 Jakarta",
+      "alamat": "Jl. Gading Mas Timur II, Kelapa Gading",
+      "kota": "Jakarta Utara",
+      "kode_pos": "14250",
+      "telepon": "021-4521568",
+      "email": "info@smkn33jkt.sch.id",
+      "website": "http://smkn33jkt.sch.id/",
+      "npsn": "20100151",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Tata Boga",
+        "Tata Busana",
+        "Perhotelan",
+        "Usaha Perjalanan Wisata"
+      ],
+      "kepala_sekolah": "Dra. Hj. Yanti Suryani, M.Pd"
+    },
+    {
+      "id": 16,
+      "nama": "SMK Negeri 40 Jakarta",
+      "alamat": "Jl. Nanas 2, Utan Kayu Utara",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13120",
+      "telepon": "021-8563329",
+      "email": "info@smkn40jkt.net",
+      "website": "http://www.smkn40jkt.net/",
+      "npsn": "20100152",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Multimedia",
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran",
+        "Desain Komunikasi Visual",
+        "Rekayasa Perangkat Lunak"
+      ],
+      "kepala_sekolah": "Drs. H. Muhammad Yusuf, M.Pd"
+    },
+    {
+      "id": 17,
+      "nama": "SMK Negeri 46 Jakarta",
+      "alamat": "Jl. B7 Cipinang Pulo",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13240",
+      "telepon": "021-8195127",
+      "email": "info@smkn46jakarta.sch.id",
+      "website": "http://www.smkn46jakarta.sch.id/",
+      "npsn": "20100154",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran",
+        "Desain Komunikasi Visual"
+      ],
+      "kepala_sekolah": "Dra. Hj. Lilis Suryani, M.Pd"
+    },
+    {
+      "id": 18,
+      "nama": "SMK Negeri 48 Jakarta",
+      "alamat": "Jl. Raya Perumnas Klender",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13460",
+      "telepon": "021-86613397",
+      "email": "info@smkn48jakarta.sch.id",
+      "website": "http://www.smkn48jakarta.sch.id/",
+      "npsn": "20100155",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran",
+        "Multimedia",
+        "Produksi dan Siaran Program Pertelevisian"
+      ],
+      "kepala_sekolah": "Drs. H. Agus Salim, M.Pd"
+    },
+    {
+      "id": 19,
+      "nama": "SMK Negeri 29 Jakarta",
+      "alamat": "Jl. Prof. Dr. Joko Sutono SH No.1, Petogogan",
+      "kota": "Jakarta Selatan",
+      "kode_pos": "12170",
+      "telepon": "021-7222471",
+      "email": "info@smk29jkt.sch.id",
+      "website": "http://www.smk29jkt.sch.id/",
+      "npsn": "20100149",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Teknik Pendinginan dan Tata Udara",
+        "Airframe Powerplant",
+        "Electrical Avionics",
+        "Teknik Elektronika Industri"
+      ],
+      "kepala_sekolah": "Ir. H. Sugiyanto, M.Pd"
+    },
+    {
+      "id": 20,
+      "nama": "SMK Negeri 30 Jakarta",
+      "alamat": "Jl. Pakubuwono VI, Kebayoran Baru",
+      "kota": "Jakarta Selatan",
+      "kode_pos": "12120",
+      "telepon": "021-7221253",
+      "email": "info@smknegeri30jkt.sch.id",
+      "website": "http://smknegeri30jkt.sch.id/",
+      "npsn": "20100150",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Perhotelan",
+        "Jasa Boga",
+        "Tata Busana"
+      ],
+      "kepala_sekolah": "Dra. Hj. Siti Aminah, M.Pd"
+    },
+    {
+      "id": 21,
+      "nama": "SMK Negeri 35 Jakarta",
+      "alamat": "Jl. Kerajinan No.42, Kampung Jawa",
+      "kota": "Jakarta Barat",
+      "kode_pos": "11450",
+      "telepon": "021-6343146",
+      "email": "info@smkn35jakarta.sch.id",
+      "website": "http://www.smkn35jakarta.sch.id/",
+      "npsn": "20100169",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Desain Permodelan dan Informasi Bangunan",
+        "Teknik Instalasi Tenaga Listrik",
+        "Teknik Pemesinan",
+        "Teknik Otomotif Kendaraan Ringan",
+        "Teknik Audio Video"
+      ],
+      "kepala_sekolah": "Ir. H. Hasan Basri, M.Pd"
+    },
+    {
+      "id": 22,
+      "nama": "SMK Negeri 53 Jakarta",
+      "alamat": "Jl. Mangga Besar IV-I No.27, Taman Sari",
+      "kota": "Jakarta Barat",
+      "kode_pos": "11180",
+      "telepon": "021-6392046",
+      "email": "info@smkn53jakarta.sch.id",
+      "website": "http://www.smkn53jakarta.sch.id/",
+      "npsn": "20100170",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Teknik Instalasi Tenaga Listrik",
+        "Teknik Pengelasan",
+        "Teknik Kendaraan Ringan Otomotif",
+        "Teknik dan Bisnis Sepeda Motor",
+        "Teknik Audio Video",
+        "Teknik Komputer dan Jaringan"
+      ],
+      "kepala_sekolah": "Drs. H. Ridwan, M.Pd"
+    },
+    {
+      "id": 23,
+      "nama": "SMK Negeri 57 Jakarta",
+      "alamat": "Jl. Taman Margasatwa 38-B",
+      "kota": "Jakarta Selatan",
+      "kode_pos": "12450",
+      "telepon": "021-7806249",
+      "email": "info@smkn57jkt.sch.id",
+      "website": "http://www.smkn57jkt.sch.id/",
+      "npsn": "20100171",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Seni Tari",
+        "Seni Karawitan",
+        "Usaha Perjalanan Wisata",
+        "Perhotelan",
+        "Jasa Boga"
+      ],
+      "kepala_sekolah": "Dra. Hj. Dewi Kusuma, M.Pd"
+    },
+    {
+      "id": 24,
+      "nama": "SMK Negeri 36 Jakarta",
+      "alamat": "Jl. Baru Kosambi III, Cilincing",
+      "kota": "Jakarta Utara",
+      "kode_pos": "14110",
+      "telepon": "021-4401523",
+      "email": "smkn36jkt@yahoo.com",
+      "website": "http://www.smkn36jakarta.sch.id/",
+      "npsn": "20100172",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Teknik Pemesinan",
+        "Teknik Kendaraan Ringan Otomotif",
+        "Teknik Alat Berat",
+        "Nautika Kapal Penangkap Ikan",
+        "Teknik Kapal Penangkap Ikan",
+        "Teknik Komputer Dan Jaringan",
+        "Multimedia",
+        "Agribisnis Perikanan Air Tawar"
+      ],
+      "kepala_sekolah": "Drs. H. Sukarno, M.Pd"
+    },
+    {
+      "id": 25,
+      "nama": "SMK Negeri 52 Jakarta",
+      "alamat": "Jl. Taruna Jaya Pusdika, Cibubur",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13720",
+      "telepon": "021-8732519",
+      "email": "info@smkn52jkt.net",
+      "website": "http://smkn52jkt.net",
+      "npsn": "20100173",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Desain Permodelan dan Informasi Bangunan",
+        "Desain Interior dan Teknik Furnitur (4 tahun)",
+        "Teknik Pemesinan",
+        "Teknik Kendaraan Ringan Otomotif"
+      ],
+      "kepala_sekolah": "Ir. H. Budi Santoso, M.Pd"
+    },
+    {
+      "id": 26,
+      "nama": "SMK Negeri 58 Jakarta",
+      "alamat": "Jl. SMIK Bambu Apus/TMII, Cipayung",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13890",
+      "telepon": "021-8446304",
+      "email": "info@smkn58jkt.sch.id",
+      "website": "http://smkn58jkt.sch.id/",
+      "npsn": "20100174",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Desain Pemodelan dan Informasi Bangunan",
+        "Teknik Pengelasan",
+        "Seni Lukis",
+        "Desain Komunikasi Visual",
+        "Kriya Kreatif Batik dan Tekstil",
+        "Kriya Kreatif Logam dan Perhiasan",
+        "Kriya Kreatif Kayu dan Rotan"
+      ],
+      "kepala_sekolah": "Dra. Hj. Siti Maryam, M.Pd"
+    },
+    {
+      "id": 27,
+      "nama": "SMK Negeri 50 Jakarta",
+      "alamat": "Jl. Cipinang Muara",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13420",
+      "telepon": "021-8194466",
+      "email": "info@smkn50jkt.sch.id",
+      "website": "http://smkn50jkt.sch.id/",
+      "npsn": "20100175",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran"
+      ],
+      "kepala_sekolah": "Drs. H. Suparman, M.Pd"
+    },
+    {
+      "id": 28,
+      "nama": "SMK Negeri 51 Jakarta",
+      "alamat": "Jl. Swadaya, Bambu Apus",
+      "kota": "Jakarta Timur",
+      "kode_pos": "13890",
+      "telepon": "021-8444903",
+      "email": "info@smkn51jakarta.sch.net",
+      "website": "http://smkn51jakarta.sch.net/",
+      "npsn": "20100176",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran",
+        "Produksi dan Siaran Program Pertelevisian",
+        "Multimedia"
+      ],
+      "kepala_sekolah": "Drs. H. Ahmad Zainudin, M.Pd"
+    },
+    {
+      "id": 29,
+      "nama": "SMK Negeri 41 Jakarta",
+      "alamat": "Jl. Margasatwa Komp. PT. Timah, Pondok Labu",
+      "kota": "Jakarta Selatan",
+      "kode_pos": "12450",
+      "telepon": "021-7512190",
+      "email": "info@smkn41jakarta.sch.id",
+      "website": "http://www.smkn41jakarta.sch.id/",
+      "npsn": "20100177",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Multimedia",
+        "Otomatisasi dan Tata Kelola Perkantoran",
+        "Akuntansi dan Keuangan Lembaga",
+        "Bisnis Daring dan Pemasaran"
+      ],
+      "kepala_sekolah": "Dra. Hj. Nurhayati, M.Pd"
+    },
+    {
+      "id": 30,
+      "nama": "SMK Negeri 56 Jakarta",
+      "alamat": "Jl. Raya Pluit Timur",
+      "kota": "Jakarta Utara",
+      "kode_pos": "14450",
+      "telepon": "021-6602880",
+      "email": "info@smkn56jakarta.sch.id",
+      "website": "http://smkn56jakarta.sch.id/",
+      "npsn": "20100178",
+      "akreditasi": "A",
+      "program_keahlian": [
+        "Desain Permodelan dan Informasi Bangunan",
+        "Teknik Instalasi Tenaga Listrik",
+        "Teknik Otomasi Industri (4 tahun)",
+        "Teknik Permesinan",
+        "Teknik Kendaraan Ringan Otomotif",
+        "Teknik Ototronik",
+        "Teknik Mekatronika (4 tahun)",
+        "Teknik Komputer Dan Jaringan",
+        "Multimedia"
+      ],
+      "kepala_sekolah": "Ir. H. Muhammad Ridho, M.Pd"
+    }
+  ]

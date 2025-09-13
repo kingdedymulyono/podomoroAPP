@@ -1,0 +1,39 @@
+[
+    {
+        "code": "SMKN1",
+        "name": "SMK Negeri 1 Jakarta",
+        "address": "Jl. Budi Utomo No.7, Ps. Baru, Sawah Besar, Jakarta Pusat",
+        "region": "Jakarta Pusat",
+        "majors": [
+            "Bisnis Daring dan Pemasaran",
+            "Otomatisasi dan Tata Kelola Perkantoran",
+            "Akuntansi dan Keuangan Lembaga",
+            "Usaha Perjalanan Wisata",
+            "Multimedia"
+        ]
+    },
+    {
+        "code": "SMKN2",
+        "name": "SMK Negeri 2 Jakarta",
+        "address": "Jl. Batu No.3, Gambir, Jakarta Pusat",
+        "region": "Jakarta Pusat",
+        "majors": [
+            "Teknik Pemesinan",
+            "Teknik Kendaraan Ringan Otomotif",
+            "Teknik dan Bisnis Sepeda Motor",
+            "Teknik Instalasi Tenaga Listrik"
+        ]
+    },
+    {
+        "code": "SMKN3",
+        "name": "SMK Negeri 3 Jakarta",
+        "address": "Jl. Letjen Suprapto, Cempaka Putih, Jakarta Pusat",
+        "region": "Jakarta Pusat",
+        "majors": [
+            "Tata Boga",
+            "Tata Busana",
+            "Perhotelan",
+            "Tata Kecantikan Kulit dan Rambut"
+        ]
+    }
+]

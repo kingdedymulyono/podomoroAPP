@@ -16,7 +16,7 @@ body {
     /* background-color: #afafaf; */
 }
 
-#timeInput{
+#timeInput {
     /* width: 25dvw !important; */
     width: max-content;
 }
@@ -43,6 +43,7 @@ body {
 }
 
 .play {
+    box-shadow: inset 0 0 8px 4px #fff;
     background-color: #fff;
     /* border: 2px solid #0d6efd ; */
     padding: .5rem;
@@ -53,10 +54,12 @@ body {
     justify-content: center;
     align-items: center;
     transition: all .5s;
+    aspect-ratio: 1/1;
 }
 
 .repeat {
     /* background-color: #a0a0a0; */
+    box-shadow: inset 0 0 8px 4px #fff;
     padding: .5rem;
     border-radius: 50%;
     font-size: 2rem;
@@ -65,25 +68,33 @@ body {
     justify-content: center;
     align-items: center;
     transition: all .5s;
+    aspect-ratio: 1/1;
 }
-.modeBtn{
+
+.modeBtn {
     border: none;
 }
-i{
+
+i {
     cursor: pointer;
 }
-.work{
+
+.work {
     z-index: 2;
     width: fit-content;
 }
-.rest{
+
+.rest {
     margin: 0 -1rem;
 }
-.work , .rest{
+
+.work,
+.rest {
     cursor: pointer;
     transition: all .4s;
 }
-.modeBox{
+
+.modeBox {
     position: relative;
     width: 64%;
     height: 100%;
@@ -92,12 +103,38 @@ i{
     z-index: -9;
     transition: all .5s;
 }
+
+.darkMode {
+    width: 10dvw;
+    /* background-color: #; */
+}
+
+.darkBtn {
+    height: 100;
+    box-shadow: inset 0 0 8px 4px #fff;
+    position: relative;
+    /* left: 50%; */
+    aspect-ratio: 1/1;
+    transition: all .5s;
+}
+
+.darkBtn i {
+    position: relative;
+    /* left: 100%; */
+    height: auto;
+    transition: all .5s;
+}
+
+.darkBtn i:hover {
+    transform: rotate(45deg);
+}
+
 /* .work:hover ,` */
 .play:hover {
     color: white;
     transition: all .5s;
     background-color: #0d6efd;
-    
+
 }
 
 .repeat:hover {
@@ -106,20 +143,33 @@ i{
 }
 
 @media (max-width:960px) {
-    .circle{
+    .circle {
         min-width: 36dvw;
     }
+
+
     #time {
         font-size: 4rem !important;
         /* color: white; */
-        
+
     }
 }
+
 @media (max-width:640px) {
     #time {
         font-size: 4rem !important;
     }
-    
+
+    .darkMode {
+        width: 24dvw;
+        /* background-color: #; */
+    }
+/* 
+    .darkBtn {
+        width: auto;
+        height: auto;
+    } */
+
     .circle {
         padding: 2rem;
         min-width: 50dvw;
@@ -136,6 +186,7 @@ i{
         background-color: white;
         flex-direction: column;
     }
+
     /* #timeInput{
         width: 50dvw !important;
     } */

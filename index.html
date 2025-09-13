@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
-<body>
-    <h1>Podomoro App</h1>
+<body class="darkElement">
+
+    <div class="bg-primary p-3 text-white text-center ">
+        <h1 class="m-0">Podomoro App</h1>
+    </div>
 
     <div class="timeBox d-flex flex-column justify-content-center align-items-center">
         <div class="circle shadow-lg">
@@ -23,12 +26,17 @@
         <div class="d-flex gap-2 m-4">
             <i class="bi bi-play-fill shadow play"></i>
             <i class="bi bi-arrow-repeat shadow repeat bg-secondary bg-opacity-50" onclick="repeat()"></i>
+            <div class="darkMode rounded-pill shadow-lg">
+                <div class="darkBtn rounded-circle bg-primary w-50 text-white d-flex justify-content-center align-items-center">
+                    <i class="bi bi-sun"></i>
+                </div>
+            </div>
         </div>
         <div class="btnContainer">
             <div class="modeBox bg-primary rounded-pill"></div>
             <div id="timeInput" class=" d-flex justify-content-center align-items-center shadow rounded-pill">
                 <button type="button" class="btn modeBtn work text-white p-2 px-4 rounded-pill">Focus</button>
-                <button type="button" class="btn modeBtn rest text-black p-2 px-4 rounded-pill">Rest</button>
+                <button type="button" class="btn modeBtn rest p-2 px-4 rounded-pill darkText">Rest</button>
             </div>
         </div>
     </div>
